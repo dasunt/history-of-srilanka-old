@@ -1,12 +1,5 @@
 @charset "utf-8";
-/*
-Template Name: Edgpress
-Author: <a href="https://www.os-templates.com/">OS Templates</a>
-Author URI: https://www.os-templates.com/
-Licence: Free to use under our free template licence terms
-Licence URI: https://www.os-templates.com/template-terms
-File: Layout CSS
-*/
+
 
 @import url("font-awesome.min.css");
 @import url("framework.css");
@@ -22,21 +15,21 @@ File: Layout CSS
 
 /* Header
 --------------------------------------------------------------------------------------------------------------- */
-#header{padding:30px 0; text-align:center;}
+/*#header{padding:30px 0; text-align:center;}
 
-#header *{margin:0; padding:0; line-height:1;}
-#header h1{font-size:36px; letter-spacing:3px;}
-#header p{font-size:.9rem; text-transform:lowercase;}
-
+#header *{margin:0; padding:0; line-height:1;font: Verdana;}
+#header h1{ font-size:16px; letter-spacing:3px;}
+#header p{font-size:.9rem;}
+*/
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
-#pageintro{padding:200px 0;}
+#pageintro{padding:100px 0;}
 
-#pageintro article{display:block; max-width:65%; overflow:hidden;}
-#pageintro article *{word-wrap:break-word;}
+#pageintro article{display:block; max-width:85%; overflow:hidden;}
+/*#pageintro article *{word-wrap:break-word;}*/
 #pageintro .heading{margin-bottom:20px; font-size:6rem;}
-#pageintro p{margin:0; text-transform:uppercase; font-weight:700; font-size:1.4rem;}
+#pageintro p{margin:0; font-size:1.4rem;}
 #pageintro footer{margin-top:80px;}
 
 
@@ -268,7 +261,7 @@ hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
 input:focus, textarea:focus, *:required:focus{border-color:#56AED4;}
 .overlay{color:#FFFFFF; background-color:inherit;}
-.overlay::after{color:inherit; background-color:rgba(228,63,33,.55)/* #E43F21 */;}
+.overlay::after{color:inherit; background-color:rgba(53, 48, 47, 0.63)/* #E43F21 */;}
 
 .btn, .btn.inverse:hover{color:#FFFFFF; background-color:#E43F21; border-color:#E43F21;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
@@ -290,7 +283,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#56AED4;}
 
 
 /* Page Intro */
-#pageintro p:first-of-type{color:rgba(255,255,255,.5);}
+#pageintro p:first-of-type{color:rgba(255, 255, 255, 0.884);}
 
 
 /* Content Area */
