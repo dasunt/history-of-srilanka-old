@@ -179,14 +179,14 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #mainav form select option{margin:5px; padding:0; border:none;}
 
 /* Breadcrumb */
-#breadcrumb{padding:120px 0 30px;}
+#breadcrumb{padding:120px 0 90px;}
 #breadcrumb ul{margin:0 0 30px 0; padding:0 0 8px 0; list-style:none; text-transform:uppercase; border-bottom:1px solid;}
 #breadcrumb li{display:inline-block; margin:0 6px 0 0; padding:0;}
 #breadcrumb li a{display:block; position:relative; margin:0; padding:0 12px 0 0; font-size:12px;}
 #breadcrumb li a::after{top:3px; right:0; content:"\f101";}
 #breadcrumb li:last-child a{margin:0; padding:0; font-weight:700;}
 #breadcrumb li:last-child a::after{display:none;}
-#breadcrumb .heading{margin:0; font-size:2rem;}
+#breadcrumb .heading{margin:0; font-size:3rem;}
 
 /* Sidebar Navigation */
 .sidebar nav{display:block; width:100%;}
